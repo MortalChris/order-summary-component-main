@@ -1,23 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+/***Image svg***/
 
 
+/***Main content***/
+#main-container {
 
+}
+#main-container h1{
 
+}
+#main-container p{
 
+}
 
+/***Secondary content***/
+#plan-container{
 
+}
+#list1{
+    
+}
+#list2{
+    
+}
+#plan-container a{
+    
+}
 
+/***Buttons***/
+#button-container{
 
-
-
-
-
-
-
-
-
-
-
+}
+#submit{
+    
+}
+#cancel{
+    
+}
 
 
 
