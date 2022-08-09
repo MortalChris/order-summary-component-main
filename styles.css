@@ -8,52 +8,114 @@
 body{
     margin-top: 6rem;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background-color: hsl(225, 100%, 94%);
 }
-/***Image svg***/
 
+#container{
+    background-color: white;
+    margin: 0rem 20rem 0rem 20rem;
+    border-radius: 2rem 1rem 1rem 1rem;
+}
+
+/***Image svg***/
+#image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem 1rem 0rem 0rem;
+  
+}
+   
 
 /***Main content***/
 #main-container {
-
+    margin: 1rem;
 }
 #main-container h1{
-
+    text-align: center;
+   margin: 0rem 0rem 1rem 0rem;
 }
 #main-container p{
-
+    text-align: center;
+    color: hsl(224, 23%, 55%);
 }
 
 /***Secondary content***/
 #plan-container{
-
+    list-style: none;
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin: 0rem 1.5rem 1rem 1.5rem;
+    padding: 1rem;
+    border-radius: .5rem .5rem .5rem .5rem;
+    background-color: hsl(225, 100%, 98%);
+}
+li{
+    margin-left: .5rem;
 }
 #list1{
-    
+    margin: 0rem 0rem 0.3rem 0rem;
+    width: 5rem;
 }
 #list2{
-    
+    color: hsl(224, 23%, 55%);
+}
+#music_icon-container{
+    margin-right: 1rem;
+}
+#music_icon-container img{
+    height: auto;
+    width: 3rem;
+}
+#hyperlink-container{
+   
 }
 #plan-container a{
-    
+    margin-left: 2rem;
+    color: hsl(245, 75%, 52%);
 }
 
 /***Buttons***/
 #button-container{
-
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin: 0rem 0rem 1rem 0rem;
+    padding: 0rem 1.5rem 0rem 1.5rem;
 }
-#submit{
-    
+#submit {
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem .5rem .5rem .5rem;
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+    height: auto;
 }
 #cancel{
-    
+    color: hsl(224, 23%, 55%);
+    background-color: none;
 }
 
 
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-bottom: 1rem;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
